@@ -677,3 +677,13 @@ footer{
     display: grid;
   }
 }
+@media only screen and (max-width:298px){
+  iframe{
+    width: 270px;
+  }
+  footer{
+    display: grid;
+  }
+}
+
+/* footer code end here */
