@@ -522,7 +522,14 @@ headera{
   }
   .containerd{
     width: 100%;
-    padding: 10px;
+    padding: 20px;
+  }
+}
+@media only screen and (max-width:272px){
+  .containerd img{
+    width: 90px;
+    height: 40px;
+    padding: 34px;
   }
 }
 /* service code end here */ 
