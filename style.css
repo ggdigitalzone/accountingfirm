@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body{
- background-color: rgb(0, 0, 0, 0.5);
-}
-
 section{
   background-color: white;
 }
@@ -165,6 +161,18 @@ img{
   .fa:hover {
     opacity: 0.7;
   }
+.fa-whatsapp{
+  color: #02240b;
+}
+.fa-facebook{
+  color: blue;
+}
+.fa-twitter{
+  color: rgb(28, 97, 124);
+}
+.fa-instagram{
+  color: rgb(86, 9, 86);
+}  
 
 .number{
     display: flex;
@@ -173,7 +181,7 @@ img{
     padding: 10px;
     text-decoration: none;
     list-style: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 headera{
     display: flex;
@@ -405,6 +413,48 @@ headera{
 .container a:active{
   background-color: rgb(165, 78, 78);
 }
+#bt{
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: rgb(253, 253, 253);
+}
+#bt:hover{
+  color: whitesmoke;
+  background-color: #fbb300;
+}
+.containerb{
+  border: 2px solid rgb(255, 255, 255);
+  background-color: white;
+  width: 450px;
+  height: 400px;
+  padding: 10px;
+  text-align: center;
+}
+.flexa{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.containerd{
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  height: 400px;
+  padding: 10px;
+  text-align: center;
+}
+.containerd #im{
+  width: 480px;
+  height: 380px;
+}
+#ppa{
+  font-size: 20px;
+  text-align: start;
+}
 @media only screen and (max-width:1179px){
   #flex{
     display: grid;
@@ -434,6 +484,17 @@ headera{
     background-color: rgb(165, 78, 78);
   }
 }
+@media only screen and (max-width:870px){
+  .flexa{
+    display: grid;
+  }
+  .containerd {
+    width: 100%;
+  }
+  .containerd #im{
+    width: 100%;
+  }
+}
 @media only screen and (max-width:633px){
   .container{
     border: 2px double black;
@@ -450,5 +511,169 @@ headera{
     display: grid;
     align-items: center;
     justify-content: center;
+  }
+}
+@media only screen and (max-width:445px){
+  .flexa{
+    display: block;
+  }
+  .containerb{
+    width: 100%;
+  }
+  .containerd{
+    width: 100%;
+    padding: 10px;
+  }
+}
+/* service code end here */ 
+/* request code start her */
+
+.request{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.call{
+  border: 3px solid rgb(0, 0, 0);
+  width: 500px;
+  height: 460px;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+}
+.call img{
+  width: 496px;
+  height: 450px;
+}
+.call input{
+  width: 300px;
+  height: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+#text{
+  padding: 15px;
+}
+#btt{
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  width: 200px;
+  background-color: rgb(253, 253, 253);
+}
+#btt:hover{
+  background-color: orangered;
+  color: white;
+}
+@media only screen and (max-width:1009px){
+  .request{
+    display: grid;
+  }
+}
+@media only screen and (max-width:525px){
+  .call{
+    width: 350px;
+  }
+  .call img{
+    width: 346px;
+  }
+}
+@media only screen and (max-width:355px){
+  .call{
+    width: 300px;
+  }
+  .call img{
+    width: 296px;
+  }
+  .call input{
+    width: 200px;
+  }
+  .call textarea{
+    width: 200px;
+  }
+}
+
+/* request code end here */
+
+/* footer code start here */
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #abb8c3;
+}
+.footera{
+  background-color: #abb8c3;
+}
+.map{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.na, h4{
+  color: orangered;
+}
+.na, p{
+  color: black;
+}
+.na .nav ul li, a{
+  list-style: none;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.na .nav ul li, a:hover{
+  color: orangered;
+}
+
+.footera, h2{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+@media only screen and (max-width:967px){
+  iframe{
+    width: 700px;
+  }
+}
+@media only screen and (max-width:895px){
+  iframe{
+    width: 700px;
+  }
+  footer{
+    display: grid;
+  }
+}
+@media only screen and (max-width:710px){
+  iframe{
+    width: 500px;
+  }
+  footer{
+    display: grid;
+  }
+}
+@media only screen and (max-width:515px){
+  iframe{
+    width: 350px;
+  }
+  footer{
+    display: grid;
+  }
+  .footera, h2{
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width:358px){
+  iframe{
+    width: 300px;
+  }
+  footer{
+    display: grid;
   }
 }
