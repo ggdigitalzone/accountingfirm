@@ -419,7 +419,7 @@ headera{
   color: rgb(0, 0, 0);
   border: 2px solid black;
   border-radius: 20px;
-  padding: 9px;
+  padding: 8px;
   background-color: rgb(253, 253, 253);
 }
 #bt:hover{
@@ -431,7 +431,7 @@ headera{
   background-color: white;
   width: 450px;
   height: 400px;
-  padding: 8px;
+  padding: 11px;
   text-align: center;
 }
 .flexa{
